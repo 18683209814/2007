@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/demo2.css">
+    <script src="../lib/jquery.min.js"></script>
+</head>
+<body>
+    <div>hello world</div>
+    <h2>动画片</h2>
+    <ul>
+        <li>火影忍者</li>
+        <li>海贼王</li>
+        <li>黑猫警长</li>
+        <li>葫芦娃</li>
+    </ul>
+    <script>
+        $.ajax({
+            url:'../abc',
+            success:function(dt){
+                console.log(dt)
+            }
+        })
+    </script>
+</body>
+</html>
